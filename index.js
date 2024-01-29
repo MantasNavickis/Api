@@ -4,7 +4,7 @@ const express = require('express')
 const mongoose = require('mongoose')
 const app = express()
 app.use(bodyParser.json())
-const PORT = 3000
+const PORT = 4000
 const cors = require('cors')
 app.use(cors())
 
